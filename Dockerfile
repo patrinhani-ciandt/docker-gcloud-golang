@@ -17,6 +17,5 @@ ONBUILD ADD . /gopath/src/app/
 ONBUILD RUN /bin/go-build
 
 EXPOSE 8080
-CMD []
 
 # End - Go lang Configuration
