@@ -15,7 +15,7 @@
 
 ## Initializing the container
 
-    $ docker run -t -i --name=gcloud-golang-dev patrinhani/docker-gcloud-golang bash
+    $ docker run -t -i --name=gcloud-golang-dev patrinhani/gcloud-golang bash
 
 ## Configuring your Google Cloud Account into the container
 
