@@ -10,4 +10,13 @@ ENV GOROOT /goroot
 ENV GOPATH /gopath
 ENV PATH $PATH:$GOROOT/bin:$GOPATH/bin
 
+ADD go-build /bin/go-build
+ADD go-run /bin/go-run
+
+ONBUILD ADD . /gopath/src/app/
+ONBUILD RUN /bin/go-build
+
+EXPOSE 8080
+CMD []
+
 # End - Go lang Configuration
