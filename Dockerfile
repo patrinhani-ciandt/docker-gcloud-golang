@@ -1,4 +1,4 @@
-FROM patrinhani/docker-gcloud
+FROM patrinhani/gcloud
 
 # Begin - Go lang Configuration
 
